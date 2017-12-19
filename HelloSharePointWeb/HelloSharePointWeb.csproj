@@ -26,6 +26,7 @@
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
     <TargetOfficeVersion>16.1</TargetOfficeVersion>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -197,7 +198,9 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <None Include="Properties\PublishProfiles\Deploy to Azure.pubxml" />
+    <None Include="Properties\PublishProfiles\HelloSharePointWeb-A - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\HelloSharePointWeb-B - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\HelloSharePointWeb-D - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
